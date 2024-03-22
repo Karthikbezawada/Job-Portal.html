@@ -1,0 +1,159 @@
+h1{
+    /* font-size: 45px; */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 15px;
+    font-weight: bold;
+    font-size: 2em; /* Adjust heading font size */
+    margin-bottom: 0.5em;
+}
+p{
+    /* font-size: 20px; */
+    font-family: 'Times New Roman', Times, serif;
+    padding: 15px;
+    font-size: 1em; /* Set paragraph font size */
+    margin-bottom: 1em;
+}
+
+.bg {
+    background-color: #E7E8D1;
+    width: 100%;
+    padding-top: 70px;
+    margin-bottom: 20px;
+  
+  }
+  a:hover {
+    color: #B85042;
+  }
+  
+  a{
+    color: white;
+  }
+  .foot {
+    background-color: #A7BEAE;
+    color: black;
+  }
+  /* header {
+    background-color: #A7BEAE;
+    color: white;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    width: 100%;
+    flex-wrap: wrap;
+  } */
+.cont-bg {
+    background-color: antiquewhite;
+    margin: 30px;
+    margin-top: 100px;
+    padding: 25px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.imgg {
+    height: 100px;
+    display: flex;
+    align-items: center;
+    width: 100px;
+}
+
+.butt {
+    border-radius: 5px;
+    color: skyblue;
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+  }
+
+.but {
+    border-radius: 5px;
+    color: skyblue;
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    background-color: #ec8346;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+/* header {
+    background-color: wheat;
+    color: black;
+    text-align: center;
+    width: 100%;
+    padding: 1em;
+    position: fixed;
+}
+ */
+
+.icontext {
+    font-family: 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+}
+
+.icontextp {
+    margin-top: 25px;
+    font-size: 12px;
+}
+
+/* .foot {
+    background-color: wheat;
+    color: black;
+} */
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+    /* position: fixed; */
+    /* bottom: 0; */
+    width: 100%;
+}
+
+/* header {
+    background-color: wheat;
+    color: black;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    width: 100%;
+    flex-wrap: wrap;
+} */
+
+.menu-bar {
+    background: transparent;
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu-bar a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 17px;
+    text-align: center;
+}
+
+/* a:hover {
+    color: chocolate;
+} */
+.carosal{
+    padding-top: 50px;
+    text-align: center;
+    /* padding: 14px; */
+}

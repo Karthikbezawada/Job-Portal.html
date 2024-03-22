@@ -1,0 +1,259 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url(https://assets-global.website-files.com/602a043d17d7780d1cce562e/64c9df592cdd21553404e01f_64c9de591da485be6f49494a_63c7b6d2f8d46ea57750830d_4.webp);
+    background-size: cover;
+
+}
+header {
+    background-color: #A7BEAE;
+    color:black;
+    padding: 10px 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+nav {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.nav-bar {
+    list-style-type: none;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+.logo a .fa-solid {
+    font-size: 1.5em;
+    color:#333;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+}
+
+.menu li {
+    margin-right: 20px;
+}
+
+.open-menu,
+.close-menu {
+    font-size: 20px;
+    cursor: pointer;
+    display: none;
+}
+
+#check {
+    display: none;
+}
+
+.menu a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;
+    transition: color 0.3s ease-in-out;
+}
+
+/* header {
+    background-color: #A7BEAE;
+    color: black;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-top: 30px;
+    padding-bottom: 15px;
+    width: 100%;
+    flex-wrap: wrap;
+    position: sticky;
+    top: 0;
+}
+
+.menu-bar {
+    background: transparent;
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu-bar a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 17px;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+    transition: color 0.3s ease-in-out;
+}
+
+a:hover {
+    color: chocolate;
+} */
+
+.hi {
+    max-width: 300px;
+    margin: 100px auto;
+    background: transparent;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+    
+}
+
+.hi h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.input-box {
+    margin-bottom: 20px;
+}
+
+.input-box input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+}
+.remember-forgot {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.button {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.button:hover {
+    background-color: #45a049;
+}
+
+.remember-forgot a {
+    text-decoration: none;
+    color: #007BFF;
+}
+
+.remember-forgot a:hover {
+    text-decoration: underline;
+}
+.hi .register-link{
+font-size: 20px;
+text-align: center;
+margin-top: 20px;
+}
+.register-link p a{
+    color: blueviolet;
+    text-decoration: none;
+    font-weight: 600;
+}
+.register-link p a:hover{
+    color:#4caf50;
+}
+.icontext{
+    font-family: 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+  }
+  .icontextp{
+    margin-top: 25px;
+    font-size: 12px;
+  }
+  .foot{
+    background-color: #A7BEAE;
+    color: black;
+  }
+  footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+    width: 100%;
+}
+a .fa-brands  {
+    margin: 0 5px;
+    text-align: center;
+    font-size: 15px;
+    color:black;
+  }
+  a .fa-solid{
+    font-size: 15px;
+    color: #333;
+  }
+  
+@media only screen and (max-width: 768px) {
+    header {
+        width: 97%;
+        padding: 10px;
+
+      }
+      .hi {
+        margin: 150px auto;
+        background: transparent;
+        padding: 20px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        text-align: center;
+        
+    }
+    .input-box input{
+        width: 97%;
+    }
+    .menu {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        width: 100%;
+        background-color:#A7BEAE;;
+        z-index: 1;
+        justify-content: flex-end;
+    }
+
+    .menu.show {
+        display: flex;
+    }
+
+    .menu li {
+        margin: 0;
+        padding: 15px;
+        text-align: center;
+        border-bottom: 1px solid #555;
+    }
+
+    .open-menu {
+        display: block;
+        padding-right: 20px;
+    }
+
+    .close-menu {
+        display: none;
+        /* margin-left: auto; */
+    }
+
+    #check:checked + .menu {
+        display: flex;
+    }
+
+    
+}
